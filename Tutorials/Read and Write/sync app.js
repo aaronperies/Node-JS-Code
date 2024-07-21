@@ -6,3 +6,6 @@ var text = fs.readFileSync('readme.txt', 'utf-8');
 console.log(text);
 
 fs.writeFileSync('writeToMe.txt', 'Aaron is awesome with filewriters');
+
+//delete a file using the fs.unlink method
+fs.unlinkSync(readme.txt);
